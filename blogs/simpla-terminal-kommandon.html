@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Portfolio website for WeMake THE Sites, made in Bootstrap.">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../style.css">
+  <title>Blog - Simpla Terminal Kommandon</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <ul class="nav navbar-nav container justify-content-between">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">WeMake THE Sites</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row" id="intro">
+      <main class="col p-4 bg-light text-dark min-vh-100 position-relative" style="z-index:1;">
+        <div class="position-absolute bottom-0 left-0 -ml-2" style="z-index:-1;">
+          <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_gqcfr40d.json" background="transparent"
+            speed="0.1" style="opacity: 0.3; width: auto; height: auto;" loop autoplay></lottie-player>
+        </div>
+
+        <p><i>Publicerad: 7 September 2020</i></p>
+        <h1>Simpla Terminal Kommandon</h1>
+
+        <p>Här har du en lista på simpla terminal kommandon som du kan använda i bash.</p>
+
+        <h2 class="mb-3">Kommandon</h2>
+        <ul>
+          <li class="mb-4"><code class="p-1 bg-dark fw-bold text-light">cd</code> - "Change directory" <strong>Ändra
+              mapp.</strong></li>
+          <li class="mb-4"><code class="p-1 bg-dark fw-bold text-light">ls</code> - "List directory [files]"
+            <strong>Visa mappinnehåll.</strong>
+          </li>
+          <li class="mb-4"><code class="p-1 bg-dark fw-bold text-light">mkdir</code> - "Make directory" <strong>Skapa
+              mapp.</strong></li>
+          <li class="mb-4"><code class="p-1 bg-dark fw-bold text-light">rmdir</code> - "Remove directory" <strong>Radera
+              mapp.</strong></li>
+          <li class="mb-4">
+            <code class="p-1 bg-dark fw-bold text-light">touch</code> - "Create file" <strong>Skapa fil. "Nudda en
+              fil."</strong>
+            <span>Exempel: <code class="p-1 bg-dark fw-bold text-light">touch index.html</code></span>
+          </li>
+        </ul>
+      </main>
+      <aside class="col-lg-3 p-4 bg-dark text-light min-vh-100 bg-pattern">
+        <p class="mb-3 fs-3 fw-bold">Latest blog posts</p>
+
+        <div id="latestblogs">
+          <div class="row justify-content-between gy-3">
+            <div class="col-12">
+              <div class="card text-dark">
+                <div class="card-body">
+                  <p class="card-title fs-4 fw-bold">Simpla Terminal Kommandon</p>
+                  <p class="card-text">Här har du en lista på simpla terminal kommandon som du kan använda i bash.</p>
+                </div>
+                <a class="card-footer text-dark stretched-link" href="./simpla-terminal-kommandon.html">
+                  Publicerad: 7 September 2020
+                </a>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="card text-dark">
+                <div class="card-body">
+                  <p class="card-title fs-4 fw-bold">HTML Taggar</p>
+                  <p class="card-text">HTML, eller som det står i läroböcker "HyperText Markup Language", är vad
+                    definerar innebörden och strukturen av webbinnehåll, det vill säga innehållet av en webbsida.</p>
+                </div>
+                <a class="card-footer text-dark stretched-link" href="./html-taggar.html">
+                  Publicerad: 12 September 2020
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </aside>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-light" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col p-4">
+          <h2 class="mb-3">About WMTS</h2>
+          <p class="fs-5">
+            <strong>Github:</strong>
+            <a class="text-light" href="https://github.com/KararTY" target="_blank" rel="noreferrer">@KararTY</a>
+          </p>
+          <p class="fs-5">
+            <strong>LinkedIn:</strong>
+            <a class="text-light" href="https://linkedin.com/in/alremahy" target="_blank" rel="noreferrer">Karar
+              Al-Remahy</a>
+          </p>
+        </div>
+        <div class="col p-4 text-lg-end">
+          <h2 class="mb-3">Built with</h2>
+          <p class="fs-5">Bootstrap</p>
+          <p class="fs-5">Visual Studio Code</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+
+</html>
